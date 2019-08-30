@@ -1,0 +1,17 @@
+.flex {
+	/*flex弹性盒子*/
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox; /* TWEENER - IE 10 */
+	display: -webkit-flex; /* NEW - Chrome */
+	display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+.flex-justify-content {
+	/*横轴上的对齐方式*/
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-ms-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+}
